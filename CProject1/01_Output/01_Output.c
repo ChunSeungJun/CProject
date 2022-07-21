@@ -1,22 +1,23 @@
-// ¼Ò½ºÄÚµå
-// ÄÄÇ»ÅÍ¿¡°Ô ¸í·ÉÀ» ³»¸®´Â ¹®ÀåÀÔ´Ï´Ù.
-// ÁÖ¼® Ã³¸®°¡ µÇÁö ¾Ê´Â ¸ðµç ¹®ÀåÀº ÄÄÇ»ÅÍ°¡ ¸í·ÉÀÌ¶ó ÀÎ½ÄÇÕ´Ï´Ù.
+// ì†ŒìŠ¤ì½”ë“œ
+// ì»´í“¨í„°ì—ê²Œ ëª…ë ¹ì„ ë‚´ë¦¬ëŠ” ë¬¸ìž¥ìž…ë‹ˆë‹¤.
+// ì£¼ì„ ì²˜ë¦¬ê°€ ë˜ì§€ ì•ŠëŠ” ëª¨ë“  ë¬¸ìž¥ì€ ì»´í“¨í„°ê°€ ëª…ë ¹ì´ë¼ ì¸ì‹í•©ë‹ˆë‹¤.
 
-// include : Æ÷ÇÔÇÏ´Ù
-// std : Standard(Ç¥ÁØÀÇ)
-// i   : Input   (ÀÔ·Â)
-// o   : Output  (Ãâ·Â)
-// #   : ÇÁ·Î±×·¥ÀÇ ½ÇÇà Àü¿¡ ¹Ì¸® ½ÇÇà½ÃÅ³ ¸í·ÉÀÔ´Ï´Ù.
-#include <stdio.h>   // C ¾ð¾î Ç¥ÁØÀÇ ÀÔÃâ·Â ÆÄÀÏ Æ÷ÇÔ½ÃÄÑ¶ó
+// include : í¬í•¨í•˜ë‹¤
+// std : Standard(í‘œì¤€ì˜)
+// i   : Input   (ìž…ë ¥)
+// o   : Output  (ì¶œë ¥)
+// #   : í”„ë¡œê·¸ëž¨ì˜ ì‹¤í–‰ ì „ì— ë¯¸ë¦¬ ì‹¤í–‰ì‹œí‚¬ ëª…ë ¹ìž…ë‹ˆë‹¤.
+#include <stdio.h>   // C ì–¸ì–´ í‘œì¤€ì˜ ìž…ì¶œë ¥ íŒŒì¼ í¬í•¨ì‹œì¼œë¼
 
-// main : ÇÁ·Î±×·¥ÀÇ ½ÃÀÛ ÁöÁ¡À» °áÁ¤ÇÕ´Ï´Ù.
+// main : í”„ë¡œê·¸ëž¨ì˜ ì‹œìž‘ ì§€ì ì„ ê²°ì •í•©ë‹ˆë‹¤.
 int main()
 {
-	// {} (code block) : ½ÇÇà ½ÃÅ³ ¸í·ÉÀ» ÀÛ¼ºÇÒ °ø°£ÀÔ´Ï´Ù.
+	// {} (code block) : ì‹¤í–‰ ì‹œí‚¬ ëª…ë ¹ì„ ìž‘ì„±í•  ê³µê°„ìž…ë‹ˆë‹¤.
 	
 	printf("Hello World !");
 	
-	// {}, # ÀÌ Æ÷ÇÔµÈ ¸í·ÉÀº ÀÛ¼ºÇÏÁö ¾Ê½À´Ï´Ù.
+	// {}, # ì´ í¬í•¨ëœ ëª…ë ¹ì€ ìž‘ì„±í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.
 
-	return 0; // return : ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù.
+	return 0; // return : í”„ë¡œê·¸ëž¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.
 }
+
