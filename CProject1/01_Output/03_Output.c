@@ -2,9 +2,9 @@
 
 int main()
 {
-	printf("Ãµ\n");
-	printf("½Â\n");
-	printf("ÁØ");
+	printf("ÃƒÂµ\n");
+	printf("Â½Ã‚\n");
+	printf("ÃÃ˜");
 	
 
 	return 0;
