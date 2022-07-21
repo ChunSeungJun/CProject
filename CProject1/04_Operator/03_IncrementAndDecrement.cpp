@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-// Áõ°¨¿¬»êÀÚ (Increment And Decrement Operator)
-// ÇÇ¿¬»êÀÚÀÇ °ªÀ» 1 Áõ°¡½ÃÅ°°Å³ª 1°¨¼Ò½ÃÅ°´Â ¿¬»êÀÚÀÔ´Ï´Ù.
-// À§Ä¡¿¡ µû¶ó ¹ÝÈ¯ÇÏ´Â °ªÀÌ ´Ù¸¨´Ï´Ù.
+// ì¦ê°ì—°ì‚°ìž (Increment And Decrement Operator)
+// í”¼ì—°ì‚°ìžì˜ ê°’ì„ 1 ì¦ê°€ì‹œí‚¤ê±°ë‚˜ 1ê°ì†Œì‹œí‚¤ëŠ” ì—°ì‚°ìžìž…ë‹ˆë‹¤.
+// ìœ„ì¹˜ì— ë”°ë¼ ë°˜í™˜í•˜ëŠ” ê°’ì´ ë‹¤ë¦…ë‹ˆë‹¤.
 
 int main()
 {
@@ -11,19 +11,19 @@ int main()
 	Count += 1;
 	printf("Count : %d \n", Count);
 
-	// ÀüÀ§ ¿¬»êÀÚ : ¿¬»ê ÈÄÀÇ °á°ú¸¦ ¹ÝÈ¯ÇÕ´Ï´Ù.
-	// ÀüÀ§ Áõ°¡ ¿¬»êÀÚ : ÇÇ ¿¬»êÀÚÀÇ °ªÀ» 1 Áõ°¡½ÃÅµ´Ï´Ù.
+	// ì „ìœ„ ì—°ì‚°ìž : ì—°ì‚° í›„ì˜ ê²°ê³¼ë¥¼ ë°˜í™˜í•©ë‹ˆë‹¤.
+	// ì „ìœ„ ì¦ê°€ ì—°ì‚°ìž : í”¼ ì—°ì‚°ìžì˜ ê°’ì„ 1 ì¦ê°€ì‹œí‚µë‹ˆë‹¤.
 	++Count;
 	printf("Count : %d \n", Count);
-	// ÀüÀ§ °¨¼Ò ¿¬»êÀÚ : ÇÇ ¿¬»êÀÚÀÇ °ªÀ» 1 °¨¼Ò½ÃÅµ´Ï´Ù.
+	// ì „ìœ„ ê°ì†Œ ì—°ì‚°ìž : í”¼ ì—°ì‚°ìžì˜ ê°’ì„ 1 ê°ì†Œì‹œí‚µë‹ˆë‹¤.
 	--Count;
 	printf("Count : %d \n", Count);
 	
-	// ÈÄÀÇ ¿¬»êÀÚ : ¿¬»ê ÀüÀÇ °á°ú¸¦ ¹ÝÈ¯ÇÕ´Ï´Ù.
-	// ÈÄÀ§ Áõ°¡ ¿¬»êÀÚ : ÇÇ ¿¬»êÀÚÀÇ °ªÀ» 1 Áõ°¡½ÃÅµ´Ï´Ù.
+	// í›„ì˜ ì—°ì‚°ìž : ì—°ì‚° ì „ì˜ ê²°ê³¼ë¥¼ ë°˜í™˜í•©ë‹ˆë‹¤.
+	// í›„ìœ„ ì¦ê°€ ì—°ì‚°ìž : í”¼ ì—°ì‚°ìžì˜ ê°’ì„ 1 ì¦ê°€ì‹œí‚µë‹ˆë‹¤.
 	Count++;
 	printf("Count : %d \n", Count);
-	// ÈÄÀ§ °¨¼Ò ¿¬»êÀÚ : ÇÇ ¿¬»êÀÚÀÇ °ªÀ» 1 °¨¼Ò½ÃÅµ´Ï´Ù.
+	// í›„ìœ„ ê°ì†Œ ì—°ì‚°ìž : í”¼ ì—°ì‚°ìžì˜ ê°’ì„ 1 ê°ì†Œì‹œí‚µë‹ˆë‹¤.
 	Count--;
 	printf("Count : %d \n", Count);
 
@@ -36,4 +36,3 @@ int main()
 
 	return 0;
 }
-
