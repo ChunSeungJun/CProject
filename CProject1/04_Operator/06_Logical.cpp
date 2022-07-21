@@ -1,17 +1,41 @@
 #include <stdio.h>
 
-// ³í¸® ¿¬»êÀÚ (Logical Operator)
-// µÎ Á¶°Ç½ÄÀÇ ³í¸® ¿¬»êÀ» ¼öÇàÇÕ´Ï´Ù.
+// ë…¼ë¦¬ ì—°ì‚°ì (Logical Operator)
+// ë‘ ì¡°ê±´ì‹ì˜ ë…¼ë¦¬ ì—°ì‚°ì„ ìˆ˜í–‰í•©ë‹ˆë‹¤.
 
-// ³í¸®¿¬»ê
-// A && B (AND) : A ¿Í B °¡ ¸ğµÎ true ¶ó¸é true ÇÏ³ª¶óµµ false ¶ó¸é false
-// A || B (OR)  : A ¿Í B Áß ÇÏ³ª¶óµµ  true ¶ó¸é true ¸ğµÎ false ¶ó¸é false
-// !A     (NOT) : A °¡ true ¶ó¸é false , false ¶ó¸é true ·Î ÀüÈ¯
+// ë…¼ë¦¬ì—°ì‚°
+// A && B (AND) : A ì™€ B ê°€ ëª¨ë‘ true ë¼ë©´ true í•˜ë‚˜ë¼ë„ false ë¼ë©´ false
+// A || B (OR)  : A ì™€ B ì¤‘ í•˜ë‚˜ë¼ë„  true ë¼ë©´ true ëª¨ë‘ false ë¼ë©´ false
+// !A     (NOT) : A ê°€ true ë¼ë©´ false , false ë¼ë©´ true ë¡œ ì „í™˜
 
 int main()
 {
+	int True = 1;
+	int False = 0;
 
+	printf("&& (AND ì—°ì‚°) \n");
+	int Result = True && True;
+	printf("True  && True  : %d \n", Result);
+	Result = True && False;
+	printf("True  && False : %d \n", Result);
+	Result = False && False;
+	printf("False && False : %d \n", Result);
+	printf("\n");
 	
+	printf("|| (OR ì—°ì‚°) \n");
+	Result = True || True;
+	printf("True  || True  : %d \n", Result);
+	Result = True || False;
+	printf("True  || False : %d \n", Result);
+	Result = False || False;
+	printf("False || False : %d \n", Result);
+	printf("\n");
+
+	printf("! (Not ì—°ì‚°) \n");
+	Result = !True;
+	printf("!True   : %d \n", Result);
+	Result = !False;
+	printf("!False  : %d \n", Result);
 
 	return 0;
 }
