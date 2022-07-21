@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-// C ++ ¿¡¼­´Â 0 Àº °ÅÁş (false)
-// 0 ÀÌ ¾Æ´Ñ ¸ğµç °ÍÀº Âü (true) ¶ó ÀÎ½ÄÇÕ´Ï´Ù
+// C ++ ì—ì„œëŠ” 0 ì€ ê±°ì§“ (false)
+// 0 ì´ ì•„ë‹Œ ëª¨ë“  ê²ƒì€ ì°¸ (true) ë¼ ì¸ì‹í•©ë‹ˆë‹¤
 
-// ºñ±³ ¿¬»êÀÚ (Comparison Operator)
-// A == B : A ¶û B °¡ °°´Ù¸é   true ¾Æ´Ï¶ó¸é false
-// A != B : A ¶û B °¡ ´Ù¸£´Ù¸é true ¾Æ´Ï¶ó¸é flase
-// A >  B : A °¡ B ÃÊ°ú¶ó¸é    true ¾Æ´Ï¶ó¸é false
-// A >= B : A °¡ B ÀÌ»óÀÌ¶ó¸é  true ¾Æ´Ï¶ó¸é fasle
-// A <  B : A °¡ B ¹Ì¸¸ÀÌ¶ó¸é  true ¾Æ´Ï¶ó¸é false
-// A <= B : A °¡ B ÀÌÇÏ¶ó¸é    true ¾Æ´Ï¶ó¸é false
+// ë¹„êµ ì—°ì‚°ì (Comparison Operator)
+// A == B : A ë‘ B ê°€ ê°™ë‹¤ë©´   true ì•„ë‹ˆë¼ë©´ false
+// A != B : A ë‘ B ê°€ ë‹¤ë¥´ë‹¤ë©´ true ì•„ë‹ˆë¼ë©´ flase
+// A >  B : A ê°€ B ì´ˆê³¼ë¼ë©´    true ì•„ë‹ˆë¼ë©´ false
+// A >= B : A ê°€ B ì´ìƒì´ë¼ë©´  true ì•„ë‹ˆë¼ë©´ fasle
+// A <  B : A ê°€ B ë¯¸ë§Œì´ë¼ë©´  true ì•„ë‹ˆë¼ë©´ false
+// A <= B : A ê°€ B ì´í•˜ë¼ë©´    true ì•„ë‹ˆë¼ë©´ false
 
 int main()
 {
