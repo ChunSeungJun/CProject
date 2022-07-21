@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-// ´ëÀÔ ¿¬»êÀÚ (Assignment Operator)
-// ¿ÞÂÊ ÇÇ ¿¬»êÀÚ¿¡ ¿À¸¥ÂÊ ÇÇ ¿¬»êÀÚÀÇ °ªÀ» ´ëÀÔÇÏ´Â ¿¬»êÀÚÀÔ´Ï´Ù.
+// ëŒ€ìž… ì—°ì‚°ìž (Assignment Operator)
+// ì™¼ìª½ í”¼ ì—°ì‚°ìžì— ì˜¤ë¥¸ìª½ í”¼ ì—°ì‚°ìžì˜ ê°’ì„ ëŒ€ìž…í•˜ëŠ” ì—°ì‚°ìžìž…ë‹ˆë‹¤.
 
 int main()
 {
@@ -9,8 +9,8 @@ int main()
 	int B = A;
 	A = A + 10;
 	
-	// º¹ÇÕ´ëÀÔ ¿¬»êÀÚ
-	// ´ëÀÔ ¿¬»êÀÚ´Â ´Ù¸¥ ¿¬»êÀÚ¿Í º¹ÇÕÀûÀ¸·Î »ç¿ëÇÒ ¼ö ÀÖ½À´Ï´Ù.
+	// ë³µí•©ëŒ€ìž… ì—°ì‚°ìž
+	// ëŒ€ìž… ì—°ì‚°ìžëŠ” ë‹¤ë¥¸ ì—°ì‚°ìžì™€ ë³µí•©ì ìœ¼ë¡œ ì‚¬ìš©í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
 	A += 10;
 	printf("A : %d \n", A);
 
