@@ -9,7 +9,7 @@ int main() {
         Line = 0;
         while (Line < 3)
         {
-            printf("%d x %d = %d    ", I, Count, I * Count);
+            printf("%d x %d = %d \t", I, Count, I * Count);
             ++Line;
             ++I;
             ++J;
@@ -25,7 +25,7 @@ int main() {
         Line = 0;
         while (Line < 3)
         {
-            printf("%d x %d = %d    ", I, Count, I * Count);
+            printf("%d x %d = %d \t", I, Count, I * Count);
             ++Line;
             ++I;
             ++J;
@@ -41,7 +41,7 @@ int main() {
         Line = 0;
         while (Line < 3)
         {
-            printf("%d x %d = %d    ", I, Count, I * Count);
+            printf("%d x %d = %d \t", I, Count, I * Count);
             ++Line;
             ++I;
             ++J;
