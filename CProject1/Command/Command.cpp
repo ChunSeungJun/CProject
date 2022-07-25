@@ -1,4 +1,5 @@
-// ctrl + shift + s : 저장
+// ctrl + s : 저장
+// ctrl + shift + s : 모든 파일 저장
 
 // ctrl + F5 : 프로그램을 실행합니다.
 
