@@ -1,0 +1,99 @@
+#include <stdio.h>
+#include <Windows.h>
+#pragma warning (disable : 4996)
+
+
+void main()
+{
+	srand(GetTickCount64());
+	int Player, Computer;
+	int PlayerScore = 0, ComputerScore = 0;
+
+	for (int i = 0; i < 5; ++i)
+	{
+		printf("플레이어 점수 : %d \n", PlayerScore);
+		printf("컴퓨터   점수 : %d \n", ComputerScore);	
+		printf("1.주먹 2.가위 3. 보 \n");
+		printf("입력 :");
+		scanf("%d", &Player);
+		printf("\n");
+		Computer = rand() % 3 + 1;
+		if (Computer == Player) {
+			printf("비기셨습니다. \n");
+			system("pause");
+			system("cls");
+		}
+		else if (Player == 1 && Computer == 3) {
+			printf("컴퓨터   : %s \n", (Computer == 3) ? "보" : "");
+			printf("플레이어 : %s \n", (Player == 1) ? "주먹" : "");
+			printf("컴퓨터가 이겼습니다. \n");
+			++Computer;
+			++ComputerScore;
+			system("pause");
+			system("cls");
+		}
+		else if (Player == 1 && Computer == 2) {
+			printf("컴퓨터   : %s \n", (Computer == 2) ? "가위" : "");
+			printf("플레이어 : %s \n", (Player == 1) ? "주먹" : "");
+			printf("플레이어가 이겼습니다. \n");
+			++Player;
+			++PlayerScore;
+			system("pause");
+			system("cls");
+		}
+		else if (Player == 2 && Computer == 3) {
+			printf("컴퓨터   : %s \n", (Computer == 3) ? "보" : "");
+			printf("플레이어 : %s \n", (Player == 2) ? "가위" : "");
+			printf("플레이어가 이겼습니다. \n");
+			++Player;
+			++PlayerScore;
+			system("pause");
+			system("cls");
+		}
+		else if (Player == 2 && Computer == 1) {
+			printf("컴퓨터   : %s \n", (Computer == 1) ? "주먹" : "");
+			printf("플레이어 : %s \n", (Player == 2) ? "가위" : "");
+			printf("컴퓨터가 이겼습니다. \n");
+			++Computer;
+			++ComputerScore;
+			system("pause");
+			system("cls");
+		}
+		else if (Player == 3 && Computer == 1) {
+			printf("컴퓨터   : %s \n", (Computer == 1) ? "주먹" : "");
+			printf("플레이어 : %s \n", (Player == 3) ? "보" : "");
+			printf("플레이어가 이겼습니다. \n");
+			++Player;
+			++PlayerScore;
+			system("pause");
+			system("cls");
+		}
+		else if (Player == 3 && Computer == 2) {
+			printf("컴퓨터   : %s \n", (Computer == 2) ? "가위" : "");
+			printf("플레이어 : %s \n", (Player == 3) ? "보" : "");
+			printf("컴퓨터가 이겼습니다. \n");
+			++Computer;
+			++ComputerScore;
+			system("pause");
+			system("cls");
+		}
+		else {
+			printf("1 2 3 중에서 골라주시길 바랍니다.\n");
+			system("pause");
+			system("cls");
+		}
+	}
+	if (ComputerScore < PlayerScore) {
+		printf("컴퓨터   점수 : %d \n", ComputerScore);
+		printf("플레이어 점수 : %d \n", PlayerScore);
+		printf("\n");
+		printf("플레이어 승리!! \n");
+	}
+	else {
+		printf("컴퓨터   점수 : %d \n", ComputerScore);
+		printf("플레이어 점수 : %d \n", PlayerScore);
+		printf("\n");
+		printf("컴퓨터 승리!! \n");
+	}
+	return;
+}
